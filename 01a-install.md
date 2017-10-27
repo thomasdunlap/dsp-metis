@@ -48,14 +48,10 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+My default is Python 3, but I also have Python 2 on my computer.  That way I have both.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
-
+Enter the command `python -V`. Or just the command `python`, and the environment will list its version on the line below where you entered that command.
