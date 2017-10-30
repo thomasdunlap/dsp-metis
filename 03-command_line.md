@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1. `pwd` == show current working directory path
+2. `mkdir` == creating a directory
+3. `rmdir` == deleting a directory
+4. ...`touch`! == creating a file using `touch` command
+5. `rm` == deleting a file
+6. `mv` == renaming a file
+7. `ls` == listing hidden files
+8. `cp` == copying a file from one directory to another
+9. `cd` == change directory
+10. `curl` == something url! (I'll fix this!)
 
 ---
 
@@ -51,6 +60,3 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
