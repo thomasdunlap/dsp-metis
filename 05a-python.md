@@ -12,7 +12,11 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and tuples are both forms of data storage.  A list is mutable array - meaning the information it holds, its length, and hash number can all change.  Tuples are immutable - you can't assign changes to them like you would a list.  
+
+Only tuples can be dictionary keys of the two. Because keys need consistent hash numbers, and the hash numbers of lists change.  
+
+**More**
 
 ---
 
@@ -20,7 +24,9 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and sets are both mutable arrays, but sets only contain unique data entries, where lists can have duplicates.
+
+**More**
 
 ---
 
@@ -85,8 +91,3 @@ Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
 
 ### Q8. Parsing
 Write a script as indicated (using the football data) in [q8_parsing.py](python/q8_parsing.py)
-
-
-
-
-
