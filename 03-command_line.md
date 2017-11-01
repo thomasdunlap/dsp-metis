@@ -48,28 +48,20 @@ What do the following commands do:
 * `ls -t`: sort by time & date  
 * `ls -Glp`: don't list group, long, add append slash to directories  
 
-* ls -a	list all files including hidden file starting with '.'
-* ls --color	colored list [=always/never/auto]
-* ls -d	list directories - with ' \*/'
-* ls -F	add one char of \*/=>@| to entries
-* ls -i	list file's inode index number
-* ls -l	list with long format - show permissions
-* ls -la	list long format including hidden files
-* ls -lh	list long format with readable file size
-* ls -ls	list with long format with file size
-* ls -r	list in reverse order
-* ls -R	list recursively directory tree
-* ls -s	list file size
-* ls -S	sort by file size
-* ls -X	sort by extension name
-
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls -d	list directories - with ' \*/'
+* ls -F	add one char of \*/=>@| to entries
+* ls -i	list file's inode index number
+* ls -r	list in reverse order
+* ls -R	list recursively directory tree
+* ls -s	list file size
+* ls -S	sort by file size
+* ls -X	sort by extension name
 
 ---
 
