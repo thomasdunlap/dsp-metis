@@ -69,4 +69,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` allows you to give multiple commands on the same line you couldn't normally give.  For instance:
+
+`touch file1.txt`
+`echo file1.txt | xargs touch` mean the same thing.
+
+`$ find . -type f -name '*.wav' -print0 | xargs -0 -P 3 -n 1 flac -V8` will find .wav files and convert them to flac on the same line.
