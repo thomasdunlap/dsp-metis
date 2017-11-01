@@ -89,4 +89,4 @@ I prefer vim because I've seen other developers using it, and it has many more c
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I prefer Atom as a graphical editor.  I've been using Atom for about a year now -- that's the main deciding factor.  You can customize Atom by adding Themes and Packages to autocomplete code and improve your workflow. Packages such as a Markdown Preview (ctrl-shift-M), Open In Browser (cmmd-shift-Q), an Go To Matching Bracket (ctrl-M).
