@@ -19,31 +19,49 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-1. `pwd` == show current working directory path
-2. `mkdir` == creating a directory
-3. `rmdir` == deleting a directory
-4. ...`touch`! == creating a file using `touch` command
-5. `rm` == deleting a file
-6. `mv` == renaming a file
-7. `ls` == listing hidden files
-8. `cp` == copying a file from one directory to another
-9. `cd` == change directory
-10. `curl` == something url! (I'll fix this!)
+1. `pwd`: show current working directory path
+2. `mkdir`: creating a directory
+3. `rmdir`: deleting a directory
+4. `touch`: creating a file using `touch` command
+5. `rm`: deleting a file
+6. `mv`: renaming a file
+7. `ls`: listing hidden files
+8. `cp`: copying a file from one directory to another
+9. `cd`: change directory
+10. `curl`: getting and sending URL info; technically cURL.
+11. `cd ..`: navigate up one directory
+12. `man`: pull up the manual for some-cmd
+13. `find . -name foo`: find files in the current directory (and children) that
+  have blah in their name
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
+`ls` == list files in directory
+`ls -a`  == list all files in directory
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -a	list all files including hidden file starting with '.'
+ls --color	colored list [=always/never/auto]
+ls -d	list directories - with ' */'
+ls -F	add one char of */=>@| to entries
+ls -i	list file's inode index number
+ls -l	list with long format - show permissions
+ls -la	list long format including hidden files
+ls -lh	list long format with readable file size
+ls -ls	list with long format with file size
+ls -r	list in reverse order
+ls -R	list recursively directory tree
+ls -s	list file size
+ls -S	sort by file size
+ls -t	sort by time & date
+ls -X	sort by extension name
 
 ---
 
