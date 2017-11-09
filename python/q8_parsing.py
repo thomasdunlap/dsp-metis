@@ -14,10 +14,8 @@ def read_data(filename):
     Returns: list of lists of strings, where every line is split into a list of values.
         ex: ['Arsenal', 38, 26, 9, 3, 79, 36, 87]
     """
-    table = []
-    for line in filename:
-        table.append(line.split(','))
-    return table
+    reader = csv.reader(filename)
+    return list(reader)
 
 
 def get_index_with_min_abs_score_difference(goals):
