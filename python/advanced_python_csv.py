@@ -13,3 +13,18 @@ def get_dict():
             d[key].append(row[1:])
     del d['name']
     return d
+
+def get_dict():
+    '''
+    d = {}
+    reader = csv.reader(open('faculty.csv'))
+    for row in reader:
+        key = tuple(row[0].split(' '))
+        d[key] = row[1:]
+    del d[('name',)]
+    return d
+    '''
+    reader = csv.reader(open('faculty.csv'))
+    d = {tuple(row[0].split(' ')): row[1:] for row in reader}
+    del d[('name',)]
+    return d
