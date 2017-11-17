@@ -25,6 +25,11 @@ def get_index_with_min_abs_score_difference(goals):
     Arguments: parsed_data is a list of lists of cleaned strings
     Returns: integer row index
     """
+    # List of absolute differences not including head labels
+    diff = [abs(int(row[5]) - int(row[6])) for row in goals[1:] ]
+    # Index of minimum difference plus one because diff does not include labels
+    index = diff.index(min(diff)) + 1
+    return index
 
 
 def get_team(index_value, parsed_data):
@@ -35,3 +40,4 @@ def get_team(index_value, parsed_data):
 
     Returns: the team name
     """
+    return parsed_data[index_value][0]
