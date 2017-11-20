@@ -25,7 +25,7 @@ The name is derived from the term "Panel data", an econometrics term for multidi
 #### [Greg Reda (Intro to Pandas Data Structures)](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)  
 
 #### [Things in Pandas I Wish I Had Known Sooner](http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb?utm_source=Python+Weekly+Newsletter&utm_campaign=8416b188e6-Python_Weekly_Issue_176_January_29_2015&utm_medium=email&utm_term=0_9e26887fc5-8416b188e6-312716773#Selecting-NaN-Rows)
-    
+
 
 ---
 
